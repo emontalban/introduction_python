@@ -1,0 +1,12 @@
+# Python
+## Variables 
+Variables cuales son, como se utilizan y como son sus funciones
+- Booleans
+- Numbers
+- Strings
+- Bytes and byte arrays
+- None
+- Lists
+- Tuples
+- Sets
+- Dictionaries
