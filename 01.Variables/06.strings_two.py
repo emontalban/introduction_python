@@ -26,3 +26,6 @@ change_sentence = change_sentence[0:4] + 'a' + change_sentence[5:]
 
 print(change_sentence)
 
+sentence = "Some pie please!"
+sub_sentence = sentence[5:8]
+print(sub_sentence)
