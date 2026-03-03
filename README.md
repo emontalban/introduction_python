@@ -10,3 +10,9 @@ Variables cuales son, como se utilizan y como son sus funciones
 - Tuples
 - Sets
 - Dictionaries
+
+## Metodos de Strings
+- Find
+- Strip, LStrip, RStrip
+- Partition
+- Split
