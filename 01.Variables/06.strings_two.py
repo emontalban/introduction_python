@@ -29,3 +29,10 @@ print(change_sentence)
 sentence = "Some pie please!"
 sub_sentence = sentence[5:8]
 print(sub_sentence)
+
+
+#para acceder de atras hacia adelante  con numeros negativos
+
+sentence= 'El zorro marron rapido salto sobre el perro perezoso'
+
+print(sentence[-8:])
