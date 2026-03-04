@@ -16,3 +16,7 @@ Variables cuales son, como se utilizan y como son sus funciones
 - Strip, LStrip, RStrip
 - Partition
 - Split
+- isalpha, isnumeric
+
+## Metodos de Numeros
+
