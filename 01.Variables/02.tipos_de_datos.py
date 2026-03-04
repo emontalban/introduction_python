@@ -35,13 +35,13 @@ print(date_byte, date_byte_array)
 result = None
 print(result)
 
-#Lists - Coleccion ordenada y mutable []
+#Lists - La listas se utilizar para almacenar una colección de datos ordenada que se pueden modificar y permite valores duplicados  van entre corchetes [ ]
 
 names = ["Anna", "Louis", "Peter"]
 
 print (names)
 
-#Tuples - Coleccion ordenada pero inmutable ()
+#Tuples - Las tuplas se utiliza para almacena una colección de datos ordenada pero no se puede modificar y van entre paréntesis ( )
 
 colors = ("red", "green", "blue")
 
