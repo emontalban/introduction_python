@@ -1,0 +1,43 @@
+# Operadores Matematicos
+
+print('Addition')
+addition = 100 + 52
+print(addition) #Resultado: 152
+
+print('Subtraction')
+subtraction = 100 - 52
+print(subtraction) #Resultado: 48
+
+print('Division')
+division = 100 / 3
+print(division) #Resultado: 33.333333333333336
+
+print('Floor Division')
+floor_division = 100 // 3
+print(floor_division) #Resultado: 33 elimina todo los decimales
+
+print('Multiplication')
+multiplication = 100 * 3
+print(multiplication) #Resultado: 300
+
+print('Modulus')
+modulus = 100 % 3
+print(modulus) #Resultado: 1
+
+print('Exponents')
+modulus = 100 ** 3
+print(modulus) #Resultado: 1000000
+
+'''
+ 0rden de calculacion
+ P - Parentesis
+ E - Exponents
+ M - Multiplication
+ D - Division
+ A - Addition
+ S - Sutraction
+
+'''
+
+calculation = 8 + 2 * 5 - (9 + 2) **2
+print(calculation) #Resultado: -103
