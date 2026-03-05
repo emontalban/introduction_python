@@ -67,3 +67,22 @@ in Pertenencia: Comprueba si un valor está en una lista/cadena.
 | %        | Módulo (residuo)      | 200 % 6      | 2                  |
 | **       | Potencia              | 200 ** 6     | 64000000000000     |
 
+### Metodos con numeros
+- math.sqrt
+- math.floor
+- math.ceil
+- math.pow
+- abs
+- round
+
+## Listas
+- insert()
+- append()
+- remove()
+- pop()
+- del
+- sort(), sort(reverse=True), sort(key=len), sort(key=str.lower)
+- 
+
+
+
