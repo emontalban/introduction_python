@@ -29,8 +29,19 @@ print([programming_languages[0]]) # devuelve una lista con elemento de la primer
 
 programming_languages[4] = "Rust"  # otra manera de reasignar los elementos
 
+
 print(programming_languages)
 
+# Acceder a los elemento rangos
+
+programing_range =programming_languages[1:3] # accede a la posicion dos ya que el segundo numero no lo incluye
+programing_range =programming_languages[1:]  # Rango desde la posicion una hasta el final
+programing_range =programming_languages[:2]  # Rango desde la posicion cero haya la 1 ya que la dos no la incluye
+programing_range =programming_languages[:]   # Rango total de toda la lista
+programing_range =programming_languages[:-1] # Rango de toda la lista menos el ultimo que no lo incluye
+
+
+print(programing_range)
 
 # Eliminar elementos
 
