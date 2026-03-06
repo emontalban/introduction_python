@@ -60,6 +60,7 @@ print(programming_languages[slice_obj_one])
 
 
 # El método extend()e usa para añadir múltiples elementos  al final de una lista existente, 
+# no retorna valor al igual que sort()
 
 frutas = ['manzana', 'banana']
 frutas.extend('naranja') # añada cara caracter como un elemento de la lista añade 7 elementos
