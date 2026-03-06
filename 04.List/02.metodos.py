@@ -36,3 +36,32 @@ tags = ["curso","de","python","avanzado"]
 formatted_tags = '+'.join(tags)
 query_uri = f'{uri}{formatted_tags}' 
 print(query_uri)
+
+
+# El slice() permite extraer partes de secuencias de datos usando 
+# la sintaxis [inicio:fin:paso]. Se utiliza para obtener subconjuntos 
+# sin modificar la secuencia original, siendo el índice de inicio incluido y el final excluido.
+# El paso por defecto es 1.
+ 
+
+
+print(programming_languages[1:4:2])
+
+slice_obj = slice(1, 4, 2)
+slice_obj_one = slice(4) # Es como [0:4:1] == [0:4] == [:4]
+print(slice_obj)
+print(slice_obj_one)
+print(slice_obj.start)
+print(slice_obj.stop)
+print(slice_obj.step)
+
+print(programming_languages[slice_obj])
+print(programming_languages[slice_obj_one])
+
+
+# El método extend()e usa para añadir múltiples elementos  al final de una lista existente, 
+
+frutas = ['manzana', 'banana']
+frutas.extend('naranja') # añada cara caracter como un elemento de la lista añade 7 elementos
+frutas.extend(['naranja']) # añade la naranja como un elemento
+print(frutas)
