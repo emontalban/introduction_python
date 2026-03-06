@@ -34,14 +34,15 @@ print(programming_languages)
 
 # Acceder a los elemento rangos
 
-programing_range =programming_languages[1:3] # accede a la posicion dos ya que el segundo numero no lo incluye
-programing_range =programming_languages[1:]  # Rango desde la posicion una hasta el final
-programing_range =programming_languages[:2]  # Rango desde la posicion cero haya la 1 ya que la dos no la incluye
-programing_range =programming_languages[:]   # Rango total de toda la lista
-programing_range =programming_languages[:-1] # Rango de toda la lista menos el ultimo que no lo incluye
+print(programming_languages[1:3])   # accede a la posicion dos ya que el segundo numero no lo incluye
+print(programming_languages[1:])    # Rango desde la posicion una hasta el final
+print(programming_languages[:2])    # Rango desde la posicion cero haya la 1 ya que la dos no la incluye
+print(programming_languages[:])     # Rango total de toda la lista
+print(programming_languages[:-1])   # Rango de toda la lista menos el ultimo que no lo incluye
+print(programming_languages[1:-1])  # Rango desde la posicion una hasta la posicion antes de la ultima 
+print(programming_languages[:-1:2]) # Rango desde cero hasta la penultima y de dos en dos
+print(programming_languages[::-1])  # Devuelve la misma lista pero a la inversa
 
-
-print(programing_range)
 
 # Eliminar elementos
 
@@ -65,3 +66,5 @@ print(programming_languages)
 del programming_languages[3]
 
 print(programming_languages)
+
+

@@ -2,13 +2,13 @@ programming_languages = ["Python", "Java", "C++","JavaScript","Ruby","Go","Rust"
 # El método sort() en Python sirve para ordenar los elementos de una lista.
 # Ordena los textos alfabéticamente
 # Ordena los números de menor a mayor por defecto.
+# No se puede almacenar el resultado en una variable
 
 programming_languages.sort()
 print(programming_languages)
 
 
 # Puedes ordenar de mayor a menor usando reverse=True.
-
 
 programming_languages.sort(reverse=True)
 print(programming_languages)
