@@ -86,5 +86,8 @@ in Pertenencia: Comprueba si un valor está en una lista/cadena.
 - slice()
 - extends()
 
+## Dictionaries
+
+
 
 

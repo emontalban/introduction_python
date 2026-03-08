@@ -11,7 +11,8 @@ programming_languages = {
         "type": "interpretado",
         "paradigm": "multiparadigma",
         "popular_use": "data science, IA, automatización",
-        "extension": ".py"
+        "extension": ".py",
+        "frameworks": ["Django", "Flask", "FastAPI"]
     },
 
     "JavaScript": {
@@ -20,7 +21,8 @@ programming_languages = {
         "type": "interpretado",
         "paradigm": "multiparadigma",
         "popular_use": "desarrollo web",
-        "extension": ".js"
+        "extension": ".js",
+        "frameworks": ["React", "Angular", "Vue"]
     },
 
     "C": {
@@ -29,7 +31,8 @@ programming_languages = {
         "type": "compilado",
         "paradigm": "procedural",
         "popular_use": "sistemas operativos",
-        "extension": ".c"
+        "extension": ".c",
+        "frameworks": ["GTK", "glib"]
     },
 
     "Rust": {
@@ -38,7 +41,8 @@ programming_languages = {
         "type": "compilado",
         "paradigm": "multiparadigma",
         "popular_use": "sistemas y seguridad",
-        "extension": ".rs"
+        "extension": ".rs",
+        "frameworks": ["Rocket", "Actix"]
     },
 
     "Java": {
@@ -47,16 +51,18 @@ programming_languages = {
         "type": "compilado",
         "paradigm": "orientado a objetos",
         "popular_use": "aplicaciones empresariales y Android",
-        "extension": ".java"
+        "extension": ".java",
+        "frameworks": ["Spring", "Hibernate", "Struts"]
     },
 
     "C++": {
         "year": 1985,
         "creator": "Bjarne Stroustrup",
         "type": "compilado",
-        "paradigm": "orientado a objetos / multiparadigma",
+        "paradigm": "multiparadigma",
         "popular_use": "videojuegos y software de alto rendimiento",
-        "extension": ".cpp"
+        "extension": ".cpp",
+        "frameworks": ["Qt", "Boost"]
     },
 
     "Go": {
@@ -65,7 +71,8 @@ programming_languages = {
         "type": "compilado",
         "paradigm": "concurrente",
         "popular_use": "servidores y cloud",
-        "extension": ".go"
+        "extension": ".go",
+        "frameworks": ["Gin", "Beego"]
     },
 
     "Swift": {
@@ -74,9 +81,44 @@ programming_languages = {
         "type": "compilado",
         "paradigm": "multiparadigma",
         "popular_use": "apps para iOS y macOS",
-        "extension": ".swift"
+        "extension": ".swift",
+        "frameworks": ["Vapor", "Kitura"]
     }
 }
+
+
 print(programming_languages)
 print(programming_languages['Python'])
-print(programming_languages['Python']['creator'])
+print(programming_languages['Python']['creator']) # Guido van Rossum
+print(programming_languages['Python']['frameworks'][1]) # Flask
+print(programming_languages['Python']['frameworks'][::-1]) # ['FastAPI', 'Flask', 'Django']
+
+#añadimos un nuevo lenguaje
+programming_languages["Kotlin"] = {
+    "year": 2011,
+    "creator": "JetBrains",
+    "type": "compilado",
+    "paradigm": "multiparadigma",
+    "popular_use": "apps Android",
+    "extension": ".kt",
+    "frameworks": ["Ktor", "Spring"]
+}
+
+print(programming_languages)
+
+# añadimos un nuevo  framework a python
+
+programming_languages["Python"]["libraries"] = ["NumPy", "Pandas", "Matplotlib"]
+
+print(programming_languages['Python'])
+
+# Para evitar que de error si no existe podemos poner uno por defecto 
+
+perfect_languages= programming_languages.get('TypeScript', 'No prefect_languages')
+print(perfect_languages)
+
+
+
+programming_languages["JavaScript"]["libraries"] = ["Lodash", "Axios", "Moment.js"]
+programming_languages["Java"]["libraries"] = ["Guava", "Apache Commons", "JUnit"]
+programming_languages["Rust"]["libraries"] = ["Serde", "Tokio", "Reqwest"]
