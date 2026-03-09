@@ -94,6 +94,24 @@ in Pertenencia: Comprueba si un valor está en una lista/cadena.
  - del
  - pop()
 
+### Dictionaries nested
+
+lista
+   │
+   ├── diccionario
+   │        └── diccionario
+   │                └── lista
+   │
+   ├── diccionario
+   │        └── diccionario
+   │                └── lista
+   │
+   └── diccionario
+            └── diccionario
+                    └── lista
+
+## Tuplas
+
 
 
 
