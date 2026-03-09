@@ -85,8 +85,14 @@ in Pertenencia: Comprueba si un valor está en una lista/cadena.
 - join()
 - slice()
 - extends()
+- sorted()
 
 ## Dictionaries
+ - keys()
+ - values()
+ - items()
+ - del
+ - pop()
 
 
 
