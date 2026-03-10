@@ -95,7 +95,7 @@ in Pertenencia: Comprueba si un valor está en una lista/cadena.
  - pop()
 
 ### Dictionaries nested
-
+```
 lista
    │
    ├── diccionario
@@ -109,6 +109,7 @@ lista
    └── diccionario
             └── diccionario
                     └── lista
+```
 
 ## Tuplas
 Diccionario con tupla como clave
